@@ -1,0 +1,8 @@
+Place your bell toll audio files here.
+
+Supported formats: .ogg, .mp3, .wav
+
+The default sound path in config.lua points to:
+    sounds/bell_toll.ogg
+
+Rename your file to bell_toll.ogg (or update the path in config.lua).

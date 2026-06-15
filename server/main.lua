@@ -1,0 +1,5 @@
+RegisterNetEvent('phils-churchbell:server:playBell', function(coords, soundFile, volume, distance)
+    local id = 'bell_' .. math.random(100000, 999999)
+    exports.xsound:PlayUrlPos(-1, id, soundFile, volume, coords, false)
+    exports.xsound:Distance(-1, id, distance)
+end)
