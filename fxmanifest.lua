@@ -24,10 +24,4 @@ dependencies {
     'xsound',
 }
 
-files {
-    'sounds/*.mp3',
-    'sounds/*.ogg',
-    'sounds/*.wav',
-}
-
 lua54 'yes'
